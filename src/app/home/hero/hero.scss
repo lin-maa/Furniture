@@ -1,0 +1,87 @@
+.hero-layout {
+    box-sizing: border-box;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 100%;
+  }
+  .hero-img {
+       width:100%;
+      // background-image: url('./imgs/header_background_1.svg'); 
+      /* border: 1px solid #707070; */
+      // filter: blur(3px); 
+      transform: scale(1.0);
+      background-repeat: repeat-x;
+      opacity: 1;
+      transition: .5s ease;
+      backface-visibility: hidden;
+  }
+  .hero-search{
+    // padding: 300px 100px;
+    box-sizing: border-box;
+    width: 100%;
+    height: 300px;
+    top: 50%;
+    left: 50%;
+    opacity: 0;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    opacity: 1;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%)
+  }
+  .hero-search.searchbar{
+    width: 100%;
+  }
+  .hero-layout:hover .hero-img {
+    opacity: 0.5;
+  }
+  
+  .hero-layout:hover .hero-search {
+    opacity: 1;
+  }
+  .hero-search-up {
+    flex-direction: column;
+  }
+  .hero-shopping {
+    display: flex;
+    position: relative;
+    justify-content: center;
+  }
+  .hero-shopping button {
+    justify-content: space-between;
+    border-color: whitesmoke;
+    color:whitesmoke;
+    font-size: 16px;
+    border-radius: 2.5rem;
+    height: 2.5rem;
+    width: 9rem;
+  }
+  .hero-shopping button :active {
+    background-color:#F2C4D0;
+    border-bottom-color: #0058a3;
+    cursor: default;
+    border-style:hidden;
+}
+ .search-shopping {
+  background-color: #592a19;
+ }
+ .search-login {
+  background-color: #586D88;
+}
+  .hero .shopping { 
+  width: 154px;
+  height: 38px;
+  border: 1px solid #fff;
+  color: whitesmoke;
+  }
+  
+  .hero-shopping div {
+    margin: 10px;
+    color:white;
+  }

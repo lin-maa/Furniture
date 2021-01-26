@@ -1,0 +1,23 @@
+<svg id="Group_614" data-name="Group 614" xmlns="http://www.w3.org/2000/svg" width="51.475" height="51.025" viewBox="0 0 51.475 51.025">
+  <g id="Ellipse_29" data-name="Ellipse 29" fill="#fff" stroke="#8aa1bf" stroke-width="2">
+    <ellipse cx="18" cy="17.5" rx="18" ry="17.5" stroke="none"/>
+    <ellipse cx="18" cy="17.5" rx="17" ry="16.5" fill="none"/>
+  </g>
+  <g id="Rectangle_1754" data-name="Rectangle 1754" transform="matrix(0.719, -0.695, 0.695, 0.719, 27.984, 33.32)" fill="#8aa1bf" stroke="#fff" stroke-width="1">
+    <rect width="8.888" height="24.613" rx="4.444" stroke="none"/>
+    <rect x="0.5" y="0.5" width="7.888" height="23.613" rx="3.944" fill="none"/>
+  </g>
+  <path id="Path_385" data-name="Path 385" d="M-2577.682-371.817l1.338,1.225" transform="translate(2607.298 401.072)" fill="none" stroke="#fff" stroke-width="2"/>
+  <g id="Ellipse_30" data-name="Ellipse 30" transform="translate(35 34)" fill="#d9d2c5" stroke="#fff" stroke-width="1">
+    <circle cx="1.5" cy="1.5" r="1.5" stroke="none"/>
+    <circle cx="1.5" cy="1.5" r="1" fill="none"/>
+  </g>
+  <g id="Ellipse_31" data-name="Ellipse 31" transform="translate(38 37)" fill="#d9d2c5" stroke="#fff" stroke-width="1">
+    <circle cx="1.5" cy="1.5" r="1.5" stroke="none"/>
+    <circle cx="1.5" cy="1.5" r="1" fill="none"/>
+  </g>
+  <g id="Ellipse_32" data-name="Ellipse 32" transform="translate(41 40)" fill="#d9d2c5" stroke="#fff" stroke-width="1">
+    <circle cx="1.5" cy="1.5" r="1.5" stroke="none"/>
+    <circle cx="1.5" cy="1.5" r="1" fill="none"/>
+  </g>
+</svg>

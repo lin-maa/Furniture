@@ -1,0 +1,107 @@
+body{
+    background-color: #F0F0F0;
+}
+.living {
+    display: flex;
+    flex-direction:column;
+}
+
+.living-hero {
+    display: flex;
+    background-image: url(./imgs/living-room.jpg);
+    background-size: 100%;
+}
+
+
+.living-hero .back-img{
+    padding: 0;
+    margin:0;
+    width:100%;
+    position: absolute;
+    z-index: -1;
+}
+
+.living-hero .img {
+    width: 10%;
+    position: absolute;
+}
+
+.hero {
+    padding:50px 50px 200px;
+}
+.title {
+    top: 10%;
+    // position: relative;
+    display: flex;
+    text-align: center;
+    width: max-content;
+    width: 100%;
+    font-size: 1.5rem;
+    align-items: center;
+    justify-content: left;
+  }
+
+  .hero p {
+    font-size: 14px;
+    width:60%;
+    text-align: justify;
+}
+
+.products{
+    margin:2%;
+}
+
+.category {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+}
+
+.category div{
+     background-color: white;
+    // position: relative;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items:flex-end;
+    margin: 3%;
+    //border-width:0.2rem;
+    border-style: outset;
+    border-color:gray;
+}
+
+// .catagory .category-sofa {
+//   width: 50%;
+//   border-style:outset;
+// //   flex-wrap: wrap;
+// }
+
+.category img {
+  box-sizing: border-box;
+  border-color: whitesmoke;
+  padding: 0.8rem 0.5rem 0;
+  border-width: 2rem;
+//   border-radius: 10%;
+  // box-shadow: 0 0.1rem 0.2rem 0 whitesmoke, 0 0.1px 0.2px 0 whitesmoke;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+}
+
+.category button {    
+    min-width:55px;
+    background-color: black;
+    color:whitesmoke;
+    text-align: center;
+    align-items: right;
+    justify-content: right;
+    border-radius: 20rem;
+    width: 20%;
+    height: auto;
+    font-size: 1rem;
+    // padding-right:2%;
+    // padding:0 0 2% 0;
+    margin: 1%;
+  }
