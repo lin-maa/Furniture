@@ -10,7 +10,7 @@ import {
 import HomePage from './home/Home.js';
 import LoginPage from './login/Login.js';
 import SignupPage from './login/Signup.js';
-import LivingPage from './living/Living.js';
+import LivingPage from './living/sofa/Sofa.js';
 
 
 // function App() {

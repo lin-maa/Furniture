@@ -9,11 +9,16 @@ import BrandwhiteSmall from '../../imgs/brand_white_small.svg'
 // import HomeCatalogue from './catalogue/Catalogue.js'
 // import Inspiration from './idea/Idea.js'
 import LivingBack from './imgs/living-room.jpg'
-// import ArmChair from './imgs/armchair.jpg'
-// import Lightning from './imgs/lighting.jpg'
-// import Soft from './imgs/soft-fur.jpg'
+import ArmChair from './imgs/armchair.jpg'
+import Lamp from './imgs/lamp.jpg'
+import SoftFurnish from './imgs/soft-furnish.jpg'
 import Sofa from './imgs/sofa.jpg'
-// import Accessory from './imgs/accessory.jpg'
+import Accessorie from './imgs/accessory.jpg'
+import Idea from './imgs/idea.jpg'
+// import Hero from './hero/Hero.js'
+// import HomeCatalogue from './catalogue/Catalogue.js'
+// import Inspiration from './idea/Idea.js'
+
 
 class LivingPage extends React.Component {
 
@@ -45,25 +50,22 @@ render() {
                 </div>
                 <div className = 'category'>
                     <Link to='./'>
-                        <ButtonInput imgName={Sofa} name='Sofa' className='category-sofa'/>
+                        <ButtonInput imgName={Sofa} name='Sofa' className='category-item'/>
                     </Link>
                     <Link to='./'>
-                        <ButtonInput imgName={Sofa} name='Sofa' className='category-sofa'/>
+                        <ButtonInput imgName={ArmChair} name='Armchair' className='category-item'/>
                     </Link>
                     <Link to='./'>
-                        <ButtonInput imgName={Sofa} name='Sofa' className='category-sofa'/>
-                    </Link>
-                </div>
-
-                <div className = 'category'>
-                    <Link to='./'>
-                        <ButtonInput imgName={Sofa} name='Sofa' className='category-sofa'/>
+                        <ButtonInput imgName={SoftFurnish} name='Soft Furnishing' className='category-item'/>
                     </Link>
                     <Link to='./'>
-                        <ButtonInput imgName={Sofa} name='Sofa' className='category-sofa'/>
+                        <ButtonInput imgName={Lamp} name='Lamp' className='category-item'/>
                     </Link>
                     <Link to='./'>
-                        <ButtonInput imgName={Sofa} name='Sofa' className='category-sofa'/>
+                        <ButtonInput imgName={Accessorie} name='Accessorie' className='category-item'/>
+                    </Link>
+                    <Link to='./'>
+                        <ButtonInput imgName={Idea} name='More Ideas' className='category-item'/>
                     </Link>
                 </div>
                 </div>
